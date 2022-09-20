@@ -1,0 +1,26 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.NavigationItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.Navigation__item {
+  margin: 0px 20px;
+}
+
+.tel {
+  margin: 0px 35px;
+  font-weight: 600;
+}/*# sourceMappingURL=Navigation.css.map */

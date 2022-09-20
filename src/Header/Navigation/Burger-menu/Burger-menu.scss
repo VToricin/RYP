@@ -1,0 +1,34 @@
+.BurgerMenu{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: none;
+
+    @media (max-width : $phoneWidth) {
+        display: block;
+    }
+
+
+}
+
+.BurgerMenu__stripe{
+    width: 30px;
+    height: 3px;
+    background-color: $MainThemeColorText;
+    position: absolute;
+
+    
+}
+
+.BurgerMenu__stripe__top{
+    top: 18px;
+    left: 10px;
+}
+.BurgerMenu__stripe__middle{
+    top: 24px;
+    left: 10px;
+}
+.BurgerMenu__stripe__bottom{
+    top: 30px;
+    left: 10px;
+}

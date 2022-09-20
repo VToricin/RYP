@@ -1,0 +1,12 @@
+$Text:'Oswald', sans-serif;
+$phoneWidth:768px;
+$MainThemeColorText: rgb(44, 44, 44);
+$MainThemeColor: rgb(235, 218, 65);
+
+@import "./Header/Header.scss";
+@import "./Header/Navigation/Navigation.scss";
+
+
+body{
+    margin: 0px auto;  
+}

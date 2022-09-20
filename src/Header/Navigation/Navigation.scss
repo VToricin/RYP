@@ -1,0 +1,34 @@
+@import "./Burger-menu/Burger-menu.scss";
+
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content; 
+    @media(max-width:$phoneWidth){
+        flex-direction: row-reverse;
+    }
+}
+
+.NavigationItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    @media(max-width:$phoneWidth){
+            visibility: hidden;
+            width: 0px;
+    }
+
+
+}
+
+.Navigation__item{
+    margin: 0px 20px ;
+}
+
+.tel {
+    margin: 0px 35px;
+    font-weight: 600;
+}
