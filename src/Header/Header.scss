@@ -7,7 +7,9 @@ $HeaderHeight: 50px;
     font-family: $Text;
     justify-content: space-between;
     color: $MainThemeColorText;
-    
+    position: fixed;
+    background-color: white;
+    z-index: 11;
 }
 .Logo{
     width: 100px;

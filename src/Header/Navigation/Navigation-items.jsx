@@ -2,13 +2,23 @@ import React from "react";
 
 
 
-export default function NavigaotionItems () {
+
+export default function NavigaotionItems (props) {
+
+    
+    let closeMenuIfOpened = () => {
+        if (props.menu__status === "NavigationItems isOpen"){
+            props.setBurgerState();
+        }
+    }
+    
     return (
-        <div className="NavigationItems">
-            <p className="Navigation__item">РЕМОНТ КОМПЬЮТЕРОВ</p>
-            <p className="Navigation__item">ОБСЛУЖИВАНИЕ</p>
-            <p className="Navigation__item">ВОССТАНОВЛЕНИЕ ДАННЫХ</p>
-            <p className="Navigation__item">СОЗДАНИЕ САЙТОВ</p>
+        
+        <div className={props.menu__status}>
+            <p className="Navigation__item" onClick={closeMenuIfOpened}>РЕМОНТ КОМПЬЮТЕРОВ</p>
+            <p className="Navigation__item" onClick={closeMenuIfOpened}>ОБСЛУЖИВАНИЕ</p>
+            <p className="Navigation__item" onClick={closeMenuIfOpened}>ВОССТАНОВЛЕНИЕ ДАННЫХ</p>
+            <p className="Navigation__item" onClick={closeMenuIfOpened}>СОЗДАНИЕ САЙТОВ</p>
             
         </div>    
     );

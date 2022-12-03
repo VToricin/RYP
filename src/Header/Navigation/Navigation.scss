@@ -18,7 +18,14 @@
     width: fit-content;
     @media(max-width:$phoneWidth){
             visibility: hidden;
-            width: 0px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 50px;
+            right: -100%;
+            transition: 300ms ease-in;
+            height: 600px;
     }
 
 
@@ -29,6 +36,16 @@
 }
 
 .tel {
-    margin: 0px 35px;
+    margin: 0px 55px;
     font-weight: 600;
+}
+.isOpen {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    background-color: aliceblue;
+    
+    transition: 300ms ease-in;
+    visibility: visible;
+    right: 0px;
 }

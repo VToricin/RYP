@@ -2,11 +2,16 @@ $Text:'Oswald', sans-serif;
 $phoneWidth:768px;
 $MainThemeColorText: rgb(44, 44, 44);
 $MainThemeColor: rgb(235, 218, 65);
+$MainThemeBackGroundColor: white;
 
+@import "./MainSection/serviceSection/serviceSection.scss";
 @import "./Header/Header.scss";
 @import "./Header/Navigation/Navigation.scss";
+@import "./MainSection/introSection/introSection.scss";
+@import "./MainSection/pc-repairSection/pc-repair.scss";
 
 
 body{
     margin: 0px auto;  
+    
 }

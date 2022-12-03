@@ -1,0 +1,53 @@
+.introSection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: $MainThemeBackGroundColor;
+    z-index: 10;
+    position: relative;
+    @media (max-width:$phoneWidth) {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+.img__intro{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    @media (max-width:$phoneWidth) {
+        height: 500px;
+    }
+}
+
+.introHalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    @media (max-width:$phoneWidth) {
+        width: 100%;
+        height: fit-content;
+        margin: 5px;
+    }
+}
+
+.introSection__textField{
+    width: 50%;
+    height: 50%;
+    font-family: $Text;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $MainThemeColorText;
+    
+    @media (max-width:$phoneWidth) {
+        width: 100%;
+        height: fit-content;
+        margin: 50px 5px 40px;
+        font-size: 25px;
+    }
+}
