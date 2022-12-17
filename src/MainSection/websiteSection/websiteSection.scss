@@ -1,0 +1,139 @@
+.websiteSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    z-index: 10;
+    position: relative;
+
+    @media (max-width:$phoneWidth){
+        padding: 10px 0px;
+        height: fit-content;
+    }
+}
+
+.websitesView{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width:$phoneWidth){
+        flex-direction: column;
+    }
+}
+
+.desktopWebsite{
+    height: 60vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px white solid;
+    border-radius: 33px;
+
+    @media (max-width:$phoneWidth){
+        width: 99%;
+        border: 5px white solid;
+        height: 300px;
+        border-radius: 15px;
+        margin: 20px 0px;
+    }
+    
+}
+
+.desktopWebsite__header{
+    width: 98%;
+    background-color: white;
+    height: 10%;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 8%);
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width:$phoneWidth){
+        width: 98%;
+        border: 5px white solid;
+        
+        border-radius: 9px;
+    }
+
+
+}
+
+.desktopWebsite__body{
+    width: 98%;
+    height: 85%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 8%);
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width:$phoneWidth){
+        width: 98%;
+        border: 5px white solid;
+        
+        border-radius: 9px;
+    }
+    &__image{
+        width: 50%;
+    }
+    &__text{
+        width: 40%;
+    }
+}
+
+
+.mobileWebsite{
+    height: 60vh;
+    width: 15%;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px white solid;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: small;
+    
+}
+
+.mobileWebsite__header{
+    width: 96%;
+    background-color: white;
+    height: 10%;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 8%);
+    margin: 5px 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.mobileWebsite__body{
+    width: 96%;
+    height: 85%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 8%);
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    &__image{
+        width: 80%;
+    }
+    &__text{
+        width: 80%;
+    }
+}

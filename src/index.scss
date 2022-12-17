@@ -9,9 +9,12 @@ $MainThemeBackGroundColor: white;
 @import "./Header/Navigation/Navigation.scss";
 @import "./MainSection/introSection/introSection.scss";
 @import "./MainSection/pc-repairSection/pc-repair.scss";
+@import "./MainSection/websiteSection/websiteSection.scss";
 
-
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0px auto;  
-    
+    font-family: $Text;
 }
