@@ -1,5 +1,7 @@
 $Text:'Oswald', sans-serif;
-$phoneWidth:768px;
+$tabWidth:828px;
+$phoneWidth:450px;
+$oldDesktopWidth:1200px;
 $MainThemeColorText: rgb(44, 44, 44);
 $MainThemeColor: rgb(235, 218, 65);
 $MainThemeBackGroundColor: white;
@@ -10,11 +12,16 @@ $MainThemeBackGroundColor: white;
 @import "./MainSection/introSection/introSection.scss";
 @import "./MainSection/pc-repairSection/pc-repair.scss";
 @import "./MainSection/websiteSection/websiteSection.scss";
+@import "./Footer/Footer.scss";
 
 *{
     box-sizing: border-box;
+    color: $MainThemeColorText;
 }
 body{
     margin: 0px auto;  
     font-family: $Text;
+}
+a{
+    text-decoration: none;
 }

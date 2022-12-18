@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .serviceSectionPart {
     margin-top: 30px;
     flex-direction: column;
@@ -45,7 +45,7 @@
   background-color: #e9e9e9;
   border-radius: 20%;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .serviceSectionTextPart {
     background-color: none;
     width: 80%;
@@ -68,7 +68,19 @@
   border-radius: 50%;
   border: 5px solid white;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .ServiceImage {
+    width: 70vh;
+    height: 70vh;
+  }
+}
+@media (max-width: 828px) {
+  .ServiceImage {
+    width: 60vh;
+    height: 60vh;
+  }
+}
+@media (max-width: 450px) {
   .ServiceImage {
     width: 200px;
     height: 200px;
@@ -83,7 +95,7 @@
   top: -20vh;
   border-radius: 30vh 0vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .pic1 {
     position: absolute;
     top: 15px;
@@ -101,7 +113,14 @@
   bottom: -20vh;
   border-radius: 30vh 0vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
+  .pic2 {
+    width: 98%;
+    border: 5px white solid;
+    border-radius: 9px;
+  }
+}
+@media (max-width: 450px) {
   .pic2 {
     position: absolute;
     border-radius: 20% 20% 0 0;
@@ -143,7 +162,7 @@
   position: relative;
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .BurgerMenu {
     display: block;
   }
@@ -180,7 +199,7 @@
   width: -moz-fit-content;
   width: fit-content;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .Navigation {
     flex-direction: row-reverse;
   }
@@ -194,7 +213,7 @@
   width: -moz-fit-content;
   width: fit-content;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .NavigationItems {
     visibility: hidden;
     display: flex;
@@ -236,7 +255,7 @@
   z-index: 10;
   position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .introSection {
     flex-direction: column;
     height: -webkit-fit-content;
@@ -251,7 +270,7 @@
   width: 100%;
   height: 100vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .img__intro {
     height: 500px;
   }
@@ -264,7 +283,7 @@
   width: 50%;
   height: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .introHalf {
     width: 100%;
     height: -webkit-fit-content;
@@ -284,7 +303,7 @@
   justify-content: center;
   color: rgb(44, 44, 44);
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .introSection__textField {
     width: 100%;
     height: -webkit-fit-content;
@@ -305,7 +324,7 @@
   z-index: 10;
   position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .pcRepairSection {
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -324,7 +343,7 @@
   margin: 20px;
   font-family: "Oswald", sans-serif;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .bim {
     width: 100%;
   }
@@ -337,7 +356,7 @@
   flex-wrap: wrap;
   width: 720px;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .pcRepairFeatures {
     width: 100%;
   }
@@ -361,7 +380,7 @@
   z-index: 10;
   position: relative;
 }
-@media (max-width: 768px) {
+@media (max-width: 828px) {
   .websiteSection {
     padding: 10px 0px;
     height: -webkit-fit-content;
@@ -376,7 +395,7 @@
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 768px) {
+@media (max-width: 828px) {
   .websitesView {
     flex-direction: column;
   }
@@ -391,13 +410,34 @@
   border: 10px white solid;
   border-radius: 33px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .desktopWebsite {
+    min-width: 510px;
+    border: 10px white solid;
+    height: 60vh;
+    border-radius: 33px;
+    margin: 0px 0px;
+  }
+}
+@media (max-width: 828px) {
+  .desktopWebsite {
+    min-width: 100px;
+    width: 80%;
+    max-height: 60vh;
+    border: 10px white solid;
+    height: 480px;
+    border-radius: 33px;
+    margin: 5px 0px 30px;
+  }
+}
+@media (max-width: 450px) {
+  .desktopWebsite {
+    min-width: 100px;
     width: 99%;
     border: 5px white solid;
     height: 300px;
     border-radius: 15px;
-    margin: 20px 0px;
+    margin: 5px 0px 30px;
   }
 }
 
@@ -412,7 +452,7 @@
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .desktopWebsite__header {
     width: 98%;
     border: 5px white solid;
@@ -431,7 +471,7 @@
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .desktopWebsite__body {
     width: 98%;
     border: 5px white solid;
@@ -440,6 +480,19 @@
 }
 .desktopWebsite__body__image {
   width: 50%;
+  height: auto;
+}
+@media (max-width: 1200px) {
+  .desktopWebsite__body__image {
+    height: 70%;
+    max-height: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .desktopWebsite__body__image {
+    height: auto;
+    max-height: 100%;
+  }
 }
 .desktopWebsite__body__text {
   width: 40%;
@@ -459,7 +512,13 @@
   justify-content: space-around;
   font-size: small;
 }
-
+@media (max-width: 828px) {
+  .mobileWebsite {
+    max-height: 60vh;
+    border: 10px white solid;
+    height: 500px;
+  }
+}
 .mobileWebsite__header {
   width: 96%;
   background-color: white;
@@ -491,11 +550,34 @@
   width: 80%;
 }
 
+.Footer {
+  background-color: rgb(235, 218, 65);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  z-index: 5;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+.Footer p {
+  margin: 0px;
+}
+
 * {
   box-sizing: border-box;
+  color: rgb(44, 44, 44);
 }
 
 body {
   margin: 0px auto;
   font-family: "Oswald", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

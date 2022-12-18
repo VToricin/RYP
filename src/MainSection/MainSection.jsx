@@ -10,8 +10,8 @@ export default function MainSection () {
             <IntroSection/>
             <PCRepairSection/>
             <ServiceSection/>
-            
             <WebsiteSection/>
+
         </div>
     )
 }

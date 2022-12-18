@@ -103,7 +103,7 @@ export default function Navigation () {
         <div className="Navigation">
             <NavigationItems menu__status = {burgerState.menu__status} setBurgerState={clickBurger}/>
             <BurgerMenu burgerState = {burgerState} setBurgerState={clickBurger}/>
-            <p className="Navigation__item tel">+7(987)-654-32-10</p>
+            <a href="tel:+79876543210"><p className="Navigation__item tel">+7(987)-654-32-10</p></a>
         </div>
     )
 }

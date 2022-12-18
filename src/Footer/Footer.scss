@@ -1,0 +1,17 @@
+.Footer{
+    background-color: $MainThemeColor;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    z-index: 5;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+
+    p{
+        margin: 0px;
+    }
+}
+

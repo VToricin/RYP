@@ -72,6 +72,17 @@
     border-radius: 50%;
     border: 5px solid white;
     
+    @media (max-width:$oldDesktopWidth) {
+        width: 70vh;
+        height: 70vh;
+    }
+
+    @media (max-width:$tabWidth) {
+        width: 60vh;
+        height: 60vh;
+    }
+
+
     @media (max-width:$phoneWidth) {
         width: 200px;
         height: 200px;
@@ -102,6 +113,15 @@
     right: -20vh;
     bottom: -20vh;
     border-radius: 30vh 0vh;
+    
+    @media (max-width:$phoneWidth){
+        width: 98%;
+        border: 5px white solid;
+        
+        border-radius: 9px;
+    }
+    
+    
     @media (max-width:$phoneWidth) {
         
             position: absolute;
