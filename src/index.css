@@ -568,6 +568,10 @@
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   color: rgb(44, 44, 44);

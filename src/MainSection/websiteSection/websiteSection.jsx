@@ -5,6 +5,7 @@ import likeImage from "../../images/like.png";
 export default function websiteSection () {
     return (
         <section className="websiteSection">
+            
             <div className="websitesView">
                 <div className="desktopWebsite">
                     <div className="desktopWebsite__header">

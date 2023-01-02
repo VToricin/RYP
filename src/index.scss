@@ -14,9 +14,14 @@ $MainThemeBackGroundColor: white;
 @import "./MainSection/websiteSection/websiteSection.scss";
 @import "./Footer/Footer.scss";
 
+
+html {
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: border-box;
     color: $MainThemeColorText;
+    
 }
 body{
     margin: 0px auto;  
