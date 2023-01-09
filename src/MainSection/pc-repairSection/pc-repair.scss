@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: rgb(245, 245, 245);
     z-index: 10;
     position: relative;
@@ -14,7 +15,7 @@
 }
 
 /* микропараграф с опциями в секции ремонта */
-.bim{
+.PCRepairOptionContainer{
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -23,6 +24,9 @@
     align-items: center;
     margin: 20px;
     font-family: $Text;
+    p{
+        width: 95%;
+    }
     @media (max-width:$phoneWidth) {
         width: 100%;
     }

@@ -1,13 +1,17 @@
 import React from "react";
 import CleanImage from "../../images/clean.jpg";
-import ThermoPaste from "../../images/ThermalPaste.jpg"
+import ThermoPaste from "../../images/ThermalPaste.jpg";
+
 
 export default function serviceSection () {
+
+    
     return (
         <section className="serviceSection">
             <div className="transparentLayer">
 
             </div>
+            
             <div className="serviceSectionInfoContainer">
                 <div className="serviceSectionImagePart">
                     <img src={CleanImage} alt="Чистка компьютеров" className="ServiceImage pic1"/>
@@ -18,6 +22,7 @@ export default function serviceSection () {
                 </div>
                 
             </div>
+            
         </section>
     )
 }

@@ -13,6 +13,7 @@ $MainThemeBackGroundColor: white;
 @import "./MainSection/pc-repairSection/pc-repair.scss";
 @import "./MainSection/websiteSection/websiteSection.scss";
 @import "./Footer/Footer.scss";
+@import "./MainSection/pricesComponents/prices.scss";
 
 
 html {
@@ -29,4 +30,9 @@ body{
 }
 a{
     text-decoration: none;
+}
+
+.priceColor {
+   color: $MainThemeColor; 
+   font-size: x-large;
 }

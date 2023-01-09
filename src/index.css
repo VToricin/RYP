@@ -320,6 +320,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: rgb(245, 245, 245);
   z-index: 10;
   position: relative;
@@ -333,7 +334,7 @@
 }
 
 /* микропараграф с опциями в секции ремонта */
-.bim {
+.PCRepairOptionContainer {
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -343,8 +344,11 @@
   margin: 20px;
   font-family: "Oswald", sans-serif;
 }
+.PCRepairOptionContainer p {
+  width: 95%;
+}
 @media (max-width: 450px) {
-  .bim {
+  .PCRepairOptionContainer {
     width: 100%;
   }
 }
@@ -568,6 +572,65 @@
   margin: 0px;
 }
 
+.pricesContainer {
+  width: 700px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid white 5px;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+@media (max-width: 828px) {
+  .pricesContainer {
+    width: 98%;
+  }
+}
+.pricesContainer p {
+  margin: 5px 0px;
+}
+
+.price {
+  width: 100px;
+}
+@media (max-width: 828px) {
+  .price {
+    width: 70px;
+  }
+}
+
+.serviceName {
+  margin-left: 15px;
+}
+
+.serviceSectionPricesTable {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serviceSectionPricesContainer {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(218, 218, 218);
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px 35px 0px 0px;
+}
+@media (max-width: 828px) {
+  .serviceSectionPricesContainer {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -584,4 +647,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.priceColor {
+  color: rgb(235, 218, 65);
+  font-size: x-large;
 }/*# sourceMappingURL=index.css.map */

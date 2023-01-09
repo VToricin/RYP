@@ -1,13 +1,13 @@
 import React from "react";
-import { pcRepairSectionFeatures } from "../../MainSectionState";
+
 import PCRepairFeature from "./pcRepairFeature";
 
 
-export default function pcRepairFeatures () {
+export default function pcRepairFeatures (props) {
     
     return(
         <div className="pcRepairFeatures">
-            <PCRepairFeature features = {pcRepairSectionFeatures}/>
+            <PCRepairFeature features = {props.state}/>
         </div>
         
     )
